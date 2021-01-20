@@ -1,6 +1,9 @@
 # Standup Meeting notes
 ## Date of today:
-
+ Year:\        
+ Month:\      
+ Day:\        
+ Time:
 
 
 ## main topic of today:
