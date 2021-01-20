@@ -149,3 +149,32 @@ display:inline
   font-size: 0.5em;
   text-align: center;
 }
+.grid1 { 
+  grid-area: study; 
+}
+.grid2 { 
+  grid-area: game; 
+}
+.grid3 { 
+  grid-area: workout; 
+}
+.grid4 { 
+  grid-area: rest; 
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'study game game game workout workout rest rest rest rest';
+    
+  grid-gap: 10px;
+  background-color: purple;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: tomato;
+  text-align: center;
+  padding: 10px;
+  
+}
