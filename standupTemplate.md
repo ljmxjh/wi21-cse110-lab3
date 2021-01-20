@@ -1,8 +1,11 @@
 # Standup Meeting notes
 ## Date of today:
- Year:\        
- Month:\      
- Day:\        
+ Year:
+ \        
+ Month:
+ \      
+ Day:
+ \        
  Time:
 
 
@@ -10,7 +13,7 @@
 \
 \
 \
-\
+
 
 ## issuses that have already been solved :
 - [x] 1.
