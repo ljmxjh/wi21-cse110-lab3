@@ -71,11 +71,11 @@ h2{
   border: 1pt solid black;
 }
 
-div{
-  background-color: lightyellow;
-  width: 300px;
-  border: 15px solid blue;
+ div{
+  background-color: Lightyellow;
+  width: 500px;
+  border: 10px solid black;
   padding: 50px;
-  margin: 20px;
+  margin: 30px;
+  height: 300px;
 }
-  
