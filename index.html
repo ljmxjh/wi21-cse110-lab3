@@ -14,11 +14,53 @@ p {
 #redwords{
    color: red;
 }
+ h1[target=back] {
+  background-color: gray;
+}
+a:link {
+  color: red;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: purple;
+}
+div li {
+  color: orange
+ }
+
+div > h2 {
+  background-color: yellow;
+}
+
+div + li {
+ color: pink
+}
+
+div ~ li {
+  background-color: blue;
+}
+ 
+ h1, h2, h3{ 
+  font-family: cursive;
+  }
+ 
+ .class1{
+  color: blue ;
+}
+ 
+.class2{
+  font-family: cursive;
+ }
+
 </style>
 <title>Jiaming Li's front page</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="https://ljmxjh.github.io/CSE110-LAB2/mystyle.css">
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <main>
@@ -47,9 +89,9 @@ p {
 
  <template> </template>
 
-<h1>places to visit </h1>
+<h1 target="back">places to visit </h1>
   <section>
-   <div style="color:#00FF00">
+   <div>
   <h2>Places that I already Visited</h2>
     <ol start="1">
   <li>England</li>
@@ -59,12 +101,14 @@ p {
     </div>
   </section>
   <section>
-  <h2>Places that I want to visit</h2>
+  <div>
+    <h2>Places that I want to visit</h2>
      <ol start="1">
        <li><b>Italy</b>
        <br> Venice
        <br> Milan
        </li>
+       </div>
   <li>Germany</li>
        </ol>
        <aside>  
@@ -113,7 +157,7 @@ p {
     </h1>
       some git commands: <br>
       <pre>
-      <code>
+      <code class="class1 class2">
         git push <br>
         git commit <br>
         git stage
