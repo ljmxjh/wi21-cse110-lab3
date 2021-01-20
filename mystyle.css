@@ -106,3 +106,13 @@ display:inline
   border: 3px black;
 }
   
+@media screen and (min-width: 480px) {
+  body {
+    background-color: lightgreen;
+  }
+}
+@media screen and (max-width: 3000px) {
+  body {
+    background-color: lightblue;
+  }
+}
