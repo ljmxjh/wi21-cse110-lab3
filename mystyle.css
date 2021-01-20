@@ -22,6 +22,9 @@ a:visited {
 a:hover {
   color: purple;
 }
+a:active {
+  color: pink;
+}
 div li {
   color: orange
  }
