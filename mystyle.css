@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap');
+
 p {
   color: purple; 
 }
@@ -37,7 +37,7 @@ div + h3 {
 div ~ li {
   background-color: blue;
 }
- 
+ @import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap');
  h1, h2, h3{ 
   font-family: 'Hachi Maru Pop', cursive;
   }
