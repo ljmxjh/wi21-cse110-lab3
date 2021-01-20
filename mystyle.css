@@ -58,3 +58,18 @@ p.border1 {
   border-radius: 5px;
   
 }
+p {
+  font-size: 25px;
+  line-height: 2em 
+}
+h1{
+  font-size: 15mm;
+  line-height: 2eh
+}
+h2{
+  font-size: 3rem;
+  border: 1pt solid black;
+}
+
+  
+  
