@@ -116,3 +116,36 @@ display:inline
     background-color: lightblue;
   }
 }
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0 ;
+  list-style: none;
+  border-style: dashed solid;
+  border-color: purple;
+  border-width: 10px;
+  border-height: 70px;
+  border-radius: 5px;
+}
+.flex-item1 {
+  background: purple;
+  width: 100px;
+  height: 50px;
+  color: white;
+  font-weight: bold;
+  font-size: 0.5em;
+  text-align: center;
+}
+
+.flex-item2 {
+  background: purple;
+  width: 40px;
+  height: 50px;
+  color: white;
+  font-weight: bold;
+  font-size: 0.5em;
+  text-align: center;
+}
