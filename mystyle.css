@@ -48,4 +48,6 @@ div ~ li {
 .class2{
   font-family: cursive;
  }
-
+body {
+  background-color: LightGray;
+}
