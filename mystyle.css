@@ -91,3 +91,9 @@ background-color: Lightyellow;
   text-decoration-color: red;
   text-align: left
 }
+span {
+  display: block;
+}
+nav{
+display:inline
+  }
