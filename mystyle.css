@@ -97,3 +97,12 @@ span {
 nav{
 display:inline
   }
+.rel{
+    position: relative;
+    left: 20px;
+  }
+.sta{
+  position: static;
+  border: 3px black;
+}
+  
