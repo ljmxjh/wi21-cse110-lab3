@@ -1,6 +1,20 @@
 <!DOCTYPE html>
 <html lang = "en">
 <head>
+<style>
+* {
+  color: black; /* Set overall text color to black */
+}
+p {
+  color: purple; 
+}
+.center {
+  text-align: center;
+}
+#redwords{
+   color: red;
+}
+</style>
 <title>Jiaming Li's front page</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,7 +26,7 @@
 <a href="https://ljmxjh.github.io/CSE110-LAB2/README.md">README</a> |  <a href="https://ljmxjh.github.io/CSE110-LAB2/index.html">MAIN</a>
 </nav>
  <header>
-  <p>Posted by Jiaming Li</p>
+  <p class="center">Posted by Jiaming Li</p>
  </header>  
  <picture>
  <img src="https://octodex.github.com/images/yaktocat.png"  alt="Main pic" width="600" height="600">
@@ -111,7 +125,7 @@
   </p>
  <form>
   <fieldset>
-  <legend>An sample form:</legend>
+  <legend id="redwords">An sample form:</legend>
  Your name:<br>
 <input type="text">
 <br>
